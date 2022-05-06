@@ -178,7 +178,7 @@ $inputButton.addEventListener('click', e => {
     if (selectPage.trim() != 1){
       $prev.removeAttribute('disabled')
     } else {
-      $prev.setAttribute('disables', true)
+      $prev.setAttribute('disabled', true)
     }
 
     if (selectPage.trim() !== all_pages){
